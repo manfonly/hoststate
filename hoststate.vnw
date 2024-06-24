@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<NavigatorWorkspace Explanation="">
+
+  <Project Active="true" ActiveCoder="CCoder" File="ProjectHostState.vsp">
+    <Report Creator="3" File="verificator_report.vre"/>
+    <Report Creator="1" File="coder\VSCoder.cre"/>
+  </Project>
+
+</NavigatorWorkspace>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<editorViewInformation format="1">
+
+  <dockState outputVisible="1" propertyViewVisible="0" workspaceBrowserVisible="1" zoomViewVisible="0"/>
+
+  <views>
+    <main guid="1.0" projectGuid="">
+      <position bottom="0" left="0" right="0" top="1792"/>
+      <origin left="0" top="0"/>
+      <zoom value="1.000000"/>
+      <tabPane value="0"/>
+      <widgetGeometry value="AdnQywADAAD/////////9QAACMAAAAU8AAAC5wAAAYkAAAYGAAAD4AAAAAACAAAACMAAAAAAAAAAIgAACL8AAAU7"/>
+      <widgetState value="AAAA/wAAAAD9AAAAAgAAAAAAAAG6AAADR/wCAAAAAfsAAAAgAHcAbwByAGsAcwBwAGEAYwBlAEIAcgBvAHcAcwBlAHIBAAAASwAAA0cAAAB8AP///wAAAAMAAAjAAAABY/wBAAAAAfsAAAAMAG8AdQB0AHAAdQB0AQAAAAAAAAjAAAAAjQD///8AAAcAAAADRwAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAAHAAAAHgBzAHQAYQBuAGQAYQByAGQAVABvAG8AbABiAGEAcgEAAAAA/////wAAAAAAAAAAAAAAFgBzAGkAegBlAFQAbwBvAGwAYgBhAHIBAAABVP////8AAAAAAAAAAAAAABwAZABpAGEAZwByAGEAbQBUAG8AbwBsAGIAYQByAQAAApb/////AAAAAAAAAAAAAAAWAHoAbwBvAG0AVABvAG8AbABiAGEAcgEAAATi/////wAAAAAAAAAAAAAAHAB2AGEAcgBpAGEAbgB0AFQAbwBvAGwAYgBhAHIBAAAFzv////8AAAAAAAAAAAAAACIAcwB0AGUAcgBlAG8AdAB5AHAAZQBUAG8AbwBsAGIAYQByAQAABwb/////AAAAAAAAAAAAAAAcAHAAcgBvAGoAZQBjAHQAVABvAG8AbABiAGEAcgEAAAeW/////wAAAAAAAAAA"/>
+    </main>
+    <diagram guid="97B99F25-490E-4204-8DA2-34F6F48051B7" projectGuid="E298D108-8A7A-4C16-AC9D-3397F269039D">
+      <position bottom="-1" left="0" right="-1" top="0"/>
+      <origin left="0" top="0"/>
+      <zoom value="1.000000"/>
+      <tabPane value="0"/>
+      <widgetGeometry value=""/>
+      <widgetState value=""/>
+    </diagram>
+    <diagram guid="01A2E782-C9EB-4D54-829F-0AD9EEFB2547" projectGuid="E298D108-8A7A-4C16-AC9D-3397F269039D">
+      <position bottom="-1" left="0" right="-1" top="0"/>
+      <origin left="34" top="0"/>
+      <zoom value="1.000000"/>
+      <tabPane value="0"/>
+      <widgetGeometry value=""/>
+      <widgetState value=""/>
+    </diagram>
+    <diagram guid="requirements" projectGuid="" visible="0">
+      <position bottom="-1" left="0" right="-1" top="0"/>
+      <origin left="0" top="0"/>
+      <zoom value="1.000000"/>
+      <tabPane value="2"/>
+      <widgetGeometry value=""/>
+      <widgetState value=""/>
+    </diagram>
+  </views>
+
+  <workspaceTree>
+    <expandedData expanded="1"/>
+    <expandedData expanded="1"/>
+    <expandedData expanded="1"/>
+    <expandedData expanded="1"/>
+    <expandedData expanded="0"/>
+    <expandedData expanded="0"/>
+    <expandedData expanded="0"/>
+    <expandedData expanded="0"/>
+    <expandedData expanded="0"/>
+    <expandedData expanded="0"/>
+    <expandedData expanded="0"/>
+    <expandedData expanded="0"/>
+    <expandedData expanded="0"/>
+    <expandedData expanded="0"/>
+    <expandedData expanded="0"/>
+  </workspaceTree>
+
+  <searchData/>
+
+</editorViewInformation>

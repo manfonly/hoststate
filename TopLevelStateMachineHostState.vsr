@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<modelFile excluded="false" format="12" guid="D6460021-8C4F-46AE-B08E-2A78A1D602AA" name="TopLevelStateMachineHostState" xmlns="http://www.iar.com/visualSTATE/2011/Modelfile">
+
+  <expl></expl>
+
+  <alias></alias>
+
+  <position bottom="160" left="30" right="342" top="30"/>
+
+  <stateProperties labelHeight="42" wrapText="true">
+    <properties value="65537"/>
+  </stateProperties>
+
+  <elements>
+    <actionsFolder guid="4174DD4B-56B9-5A5F-8C7C-D06338D333B7" name="root">
+      <actionFunction definition="false" guid="E6452DC1-F229-42FF-9639-B99FC026C331" name="appInit" returnType="VS_VOID">
+        <expl></expl>
+      </actionFunction>
+      <actionFunction definition="false" guid="20441F97-B86C-4CAF-9139-C3D003C001D4" name="pauseHost" returnType="VS_VOID">
+        <expl></expl>
+      </actionFunction>
+      <actionFunction definition="false" guid="76D1DE0F-44E4-4152-B1E6-FD9846B616AA" name="restoreHost" returnType="VS_VOID">
+        <expl></expl>
+      </actionFunction>
+      <actionFunction definition="false" guid="6612041E-3139-4243-804A-F99FB5414384" name="startHost" returnType="VS_UINT8">
+        <expl></expl>
+      </actionFunction>
+      <actionFunction definition="false" guid="ACC8E1E8-ADF5-4BC4-B425-C38E6470F80B" name="stopHost" returnType="VS_VOID">
+        <expl></expl>
+      </actionFunction>
+    </actionsFolder>
+    <constantsFolder guid="E6499F32-8786-5262-B79A-69FEBBD92C35" name="root"/>
+    <enumeratorsFolder guid="FB7636B3-7404-53C1-BCBE-872418099613" name="root"/>
+    <enumerationsFolder guid="D8F47B0F-1B56-58C6-BF2C-CA967B97DC38" name="root"/>
+    <eventsFolder guid="1F8EED4E-F08F-5059-AA61-E24A51DA1C5C" name="root">
+      <event definition="true" guid="3499936D-9941-41EF-9186-DD13EE97BD9C" name="clickPause">
+        <expl></expl>
+      </event>
+      <event definition="true" guid="82CBA0C0-2A3B-4665-9173-525B33FCAA19" name="clickRestore">
+        <expl></expl>
+      </event>
+      <event definition="true" guid="872DA685-4A8C-4F56-BFB8-8CF6783052CC" name="clickStart">
+        <expl></expl>
+      </event>
+      <event definition="true" guid="F5C00235-AB88-455B-BE49-E6A5672F6BA7" name="clickStop">
+        <expl></expl>
+      </event>
+    </eventsFolder>
+    <eventGroupsFolder guid="BB59205A-B696-5AB6-BC8B-AD684B32EF54" name="root"/>
+    <externVariablesFolder guid="7AF01F3B-26A2-543B-950B-AF5108BE2B25" name="root"/>
+    <internVariablesFolder guid="039ED4C8-0EBA-50B0-BE4F-966D09C1DDC0" name="root"/>
+    <signalsFolder guid="68929BDE-F4F7-55A5-9369-6E2CB090B924" name="root"/>
+  </elements>
+
+  <regions>
+    <regionBlock guid="01A2E782-C9EB-4D54-829F-0AD9EEFB2547"/>
+  </regions>
+
+  <regionBlocks>
+    <region excluded="false" guid="01A2E782-C9EB-4D54-829F-0AD9EEFB2547" name="Region1" offPage="true">
+      <expl></expl>
+      <placement column="0" row="0"/>
+      <size height="0" width="0"/>
+      <view colorNumber="7" pagesHorz="2" pagesVert="2"/>
+      <diagramInformation textDisplayNote="preserve" textDisplayState="preserve" textDisplayTransition="preserve"/>
+      <vertices>
+        <vertexBlock guid="15D1E113-AE17-4EE1-85F9-D33505071930"/>
+        <vertexBlock guid="BF8F1AF8-862B-4100-B11D-59F86340EDEE"/>
+        <vertexBlock guid="2A3665DD-B3A2-48C1-95B9-7A91E109B31F"/>
+        <vertexBlock guid="FA92189C-EE4F-4B26-AF39-55D235AEBC9D"/>
+      </vertices>
+    </region>
+  </regionBlocks>
+
+  <vertexBlocks>
+    <stateVertex excluded="false" guid="15D1E113-AE17-4EE1-85F9-D33505071930" name="Init">
+      <expl></expl>
+      <alias></alias>
+      <position bottom="452" left="661" right="1229" top="300"/>
+      <stateProperties labelHeight="42" wrapText="true">
+        <properties value="1638401"/>
+      </stateProperties>
+      <externalTransitions>
+        <externalTransition guid="2C3C7F2B-10CF-463F-A805-D32651A2F301" source="15D1E113-AE17-4EE1-85F9-D33505071930" target="BF8F1AF8-862B-4100-B11D-59F86340EDEE">
+          <expl></expl>
+          <alias></alias>
+          <transitionProperties>
+            <position bottom="455" left="41" right="249" top="377"/>
+            <properties value="679870592"/>
+            <routePoints>
+              <routePoint x="147" y="152"/>
+              <routePoint x="149" y="0"/>
+            </routePoints>
+          </transitionProperties>
+          <conditionSide>
+            <trigger guid="872DA685-4A8C-4F56-BFB8-8CF6783052CC"/>
+          </conditionSide>
+          <actionSide>
+            <actionCall actionFunction="startHost"/>
+          </actionSide>
+        </externalTransition>
+      </externalTransitions>
+    </stateVertex>
+    <stateVertex excluded="false" guid="2A3665DD-B3A2-48C1-95B9-7A91E109B31F" name="Pause">
+      <expl></expl>
+      <alias></alias>
+      <position bottom="1140" left="1504" right="2084" top="983"/>
+      <stateProperties labelHeight="42" wrapText="true">
+        <properties value="1638401"/>
+      </stateProperties>
+      <externalTransitions>
+        <externalTransition guid="EACF2FE0-8EA3-47E8-9F5B-F6FC9E23EC95" source="2A3665DD-B3A2-48C1-95B9-7A91E109B31F" target="BF8F1AF8-862B-4100-B11D-59F86340EDEE">
+          <expl></expl>
+          <alias></alias>
+          <transitionProperties>
+            <position bottom="157" left="-235" right="-27" top="79"/>
+            <properties value="679870592"/>
+            <routePoints>
+              <routePoint x="0" y="115"/>
+              <routePoint x="586" y="123"/>
+            </routePoints>
+          </transitionProperties>
+          <conditionSide>
+            <trigger guid="82CBA0C0-2A3B-4665-9173-525B33FCAA19"/>
+          </conditionSide>
+          <actionSide>
+            <actionCall actionFunction="restoreHost"/>
+          </actionSide>
+        </externalTransition>
+        <externalTransition guid="2418FBDA-6F58-4E93-9F53-9047974A35FE" source="2A3665DD-B3A2-48C1-95B9-7A91E109B31F" target="15D1E113-AE17-4EE1-85F9-D33505071930">
+          <expl></expl>
+          <alias></alias>
+          <transitionProperties>
+            <position bottom="-639" left="184" right="392" top="-717"/>
+            <properties value="679870594"/>
+            <routePoints>
+              <routePoint x="290" y="0"/>
+              <routePoint x="568" y="61"/>
+            </routePoints>
+          </transitionProperties>
+          <conditionSide>
+            <trigger guid="F5C00235-AB88-455B-BE49-E6A5672F6BA7"/>
+          </conditionSide>
+          <actionSide>
+            <actionCall actionFunction="stopHost"/>
+          </actionSide>
+        </externalTransition>
+      </externalTransitions>
+    </stateVertex>
+    <stateVertex excluded="false" guid="BF8F1AF8-862B-4100-B11D-59F86340EDEE" name="Running">
+      <expl></expl>
+      <alias></alias>
+      <position bottom="1148" left="654" right="1240" top="981"/>
+      <stateProperties labelHeight="42" wrapText="true">
+        <properties value="1638401"/>
+      </stateProperties>
+      <externalTransitions>
+        <externalTransition guid="BC733E18-1101-4714-B34B-048D0C8C9C96" source="BF8F1AF8-862B-4100-B11D-59F86340EDEE" target="15D1E113-AE17-4EE1-85F9-D33505071930">
+          <expl></expl>
+          <alias></alias>
+          <transitionProperties>
+            <position bottom="-225" left="357" right="565" top="-303"/>
+            <properties value="679870592"/>
+            <routePoints>
+              <routePoint x="461" y="0"/>
+              <routePoint x="452" y="152"/>
+            </routePoints>
+          </transitionProperties>
+          <conditionSide>
+            <trigger guid="F5C00235-AB88-455B-BE49-E6A5672F6BA7"/>
+          </conditionSide>
+          <actionSide>
+            <actionCall actionFunction="stopHost"/>
+          </actionSide>
+        </externalTransition>
+        <externalTransition guid="8115FA58-E072-430A-9EA1-C85BDC05D127" source="BF8F1AF8-862B-4100-B11D-59F86340EDEE" target="2A3665DD-B3A2-48C1-95B9-7A91E109B31F">
+          <expl></expl>
+          <alias></alias>
+          <transitionProperties>
+            <position bottom="88" left="614" right="822" top="10"/>
+            <properties value="679870592"/>
+            <routePoints>
+              <routePoint x="586" y="49"/>
+              <routePoint x="0" y="45"/>
+            </routePoints>
+          </transitionProperties>
+          <conditionSide>
+            <trigger guid="3499936D-9941-41EF-9186-DD13EE97BD9C"/>
+          </conditionSide>
+          <actionSide>
+            <actionCall actionFunction="pauseHost"/>
+          </actionSide>
+        </externalTransition>
+      </externalTransitions>
+    </stateVertex>
+    <pseudoStateVertex excluded="false" guid="FA92189C-EE4F-4B26-AF39-55D235AEBC9D" kind="initialState" name="initial1">
+      <expl></expl>
+      <alias></alias>
+      <position bottom="111" left="913" right="965" top="59"/>
+      <properties value="114689"/>
+      <externalTransitions>
+        <externalTransition guid="AF333CF3-9693-4B5D-8BAB-F23CC1441D85" source="FA92189C-EE4F-4B26-AF39-55D235AEBC9D" target="15D1E113-AE17-4EE1-85F9-D33505071930">
+          <expl></expl>
+          <alias></alias>
+          <transitionProperties>
+            <position bottom="186" left="-78" right="130" top="108"/>
+            <properties value="679870592"/>
+            <routePoints>
+              <routePoint x="26" y="52"/>
+              <routePoint x="275" y="0"/>
+            </routePoints>
+          </transitionProperties>
+          <actionSide>
+            <actionCall actionFunction="appInit"/>
+          </actionSide>
+        </externalTransition>
+      </externalTransitions>
+    </pseudoStateVertex>
+  </vertexBlocks>
+
+</modelFile>

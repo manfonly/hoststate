@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<projectFile dropSignalIfQueueFull="false" format="12" guid="E298D108-8A7A-4C16-AC9D-3397F269039D" name="ProjectHostState" xmlns="http://www.iar.com/visualSTATE/2011/Modelfile">
+
+  <expl></expl>
+
+  <view colorNumber="7" pagesHorz="2" pagesVert="2"/>
+
+  <diagramInformation textDisplayNote="preserve" textDisplayState="preserve" textDisplayTransition="preserve"/>
+
+  <settings>
+    <colors>
+      <color rgb="0X000000"/>
+      <color rgb="0X637AFF"/>
+      <color rgb="0XB1D991"/>
+      <color rgb="0XFF0000"/>
+      <color rgb="0XF0DCDC"/>
+      <color rgb="0XD2FAFA"/>
+      <color rgb="0XFFFFFF"/>
+      <color rgb="0XFEFAF3"/>
+      <color rgb="0X00BBFA"/>
+      <color rgb="0X00E0FF"/>
+      <color rgb="0XEAC771"/>
+      <color rgb="0X835A00"/>
+      <color rgb="0X37C2AE"/>
+      <color rgb="0X808000"/>
+      <color rgb="0XC0C0C0"/>
+      <color rgb="0X808080"/>
+    </colors>
+    <fonts>
+      <font>-13 400 0 255 "Arial"</font>
+      <font>-13 700 0 255 "Arial"</font>
+      <font>-11 400 0 255 "Arial"</font>
+      <font>-11 700 0 255 "Arial"</font>
+      <font>-13 400 0 255 "Times New Roman"</font>
+      <font>-13 700 0 255 "Times New Roman"</font>
+      <font>-11 400 0 255 "Times New Roman"</font>
+      <font>-11 700 0 255 "Times New Roman"</font>
+    </fonts>
+    <pageSetup>
+      <footer center="" height="10" left="" right="">
+        <font>-13 400 0 255 "Times New Roman"</font>
+      </footer>
+      <header center="" height="10" left="" right="">
+        <font>-13 400 0 255 "Times New Roman"</font>
+      </header>
+      <pageLayout height="297" marginBottom="0" marginLeft="0" marginRight="0" marginTop="0" paperType="0" portrait="true" width="210"/>
+      <elementPrintSetup print="true">
+        <font>-13 400 0 255 "Times New Roman"</font>
+      </elementPrintSetup>
+    </pageSetup>
+  </settings>
+
+  <elements>
+    <actionsFolder guid="2CCBBAC0-17FD-5208-A0F6-56BE77D475D3" name="root"/>
+    <constantsFolder guid="403119C3-2ABC-50A2-AEB2-5B664ADD9BA3" name="root"/>
+    <enumeratorsFolder guid="44999D4C-2C4A-535B-95F8-0898631C178A" name="root"/>
+    <enumerationsFolder guid="345DA99C-63AA-5FA0-9688-018D6C36BB61" name="root"/>
+    <eventsFolder guid="1F932FF3-193F-53A8-BD28-9A6FF2A3FBA6" name="root"/>
+    <eventGroupsFolder guid="0FB8E941-FAF5-5728-AF2D-18D4C6656A6D" name="root"/>
+    <externVariablesFolder guid="B0168748-5C8C-52E2-9AFF-7A465963BED2" name="root"/>
+    <internVariablesFolder guid="394AC0BF-78A7-53AA-881E-4A54D8154830" name="root"/>
+    <signalsFolder guid="2A01667A-8593-53FE-A0EE-F84B530D7C61" name="root"/>
+  </elements>
+
+  <systems>
+    <system guid="97B99F25-490E-4204-8DA2-34F6F48051B7" name="SystemHostState" numberOfInstances="1" signalQueueSize="0">
+      <expl></expl>
+      <alias></alias>
+      <view colorNumber="7" pagesHorz="2" pagesVert="2"/>
+      <diagramInformation textDisplayNote="preserve" textDisplayState="preserve" textDisplayTransition="preserve"/>
+      <position bottom="322" left="10" right="322" top="10"/>
+      <properties value="1048578"/>
+      <files>
+        <file>TopLevelStateMachineHostState.vsr</file>
+      </files>
+    </system>
+  </systems>
+
+</projectFile>
